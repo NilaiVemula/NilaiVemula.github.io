@@ -250,7 +250,6 @@ pre code {
 
 canvas {
   display: block;
-  vertical-align: top;
 } /* ---- particles.js container ---- */
 #particles-js {
   position: absolute;
