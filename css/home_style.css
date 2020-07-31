@@ -248,6 +248,26 @@ pre code {
   overflow-y: scroll;
 }
 
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: var(--primary-darker);
+  text-decoration: underline;
+}
+
+a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+a:not([href]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
 canvas {
   display: block;
 } /* ---- particles.js container ---- */
